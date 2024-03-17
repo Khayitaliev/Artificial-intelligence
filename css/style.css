@@ -1,0 +1,76 @@
+/* Google Fonts */
+
+@font-face {
+    font-family:'Open Sans';
+    src: url('/fonts/Open_Sans/static/OpenSans-SemiBold.ttf');
+    font-style: normal;
+    font-display: swap;
+    font-display: 600;
+}
+
+@font-face {
+    font-family:'Open Sans';
+    src: url('/fonts/Open_Sans/static/OpenSans-Bold.ttf');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:'Open Sans';
+    src: url('/fonts/Open_Sans/static/OpenSans-ExtraBold.ttf');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family:'Sircular Std';
+    src: url('/fonts/Sircular_Std/CircularStd-Book.ttf');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 450;
+}
+
+
+@font-face {
+    font-family:'Sircular Std';
+    src: url('/fonts/Sircular_Std/CircularStd-Medium.ttf');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+
+:root{
+    --cl-light-blue:#3A68B8;
+    --cl-white:#fff;
+    --cl-black:#000;
+    --cl-dark-blue:#2C3647;
+    --cl-background:#020A18;
+    --cl-header-background:#0a121f;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
