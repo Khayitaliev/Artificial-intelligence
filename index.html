@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="normalize/normalize.css" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Media CSS -->
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <header>
         <div class="container">
             <div class="header__wrapper">
                 <!-- Header Brand -->
                 <a href="index.html" class="header__brand">
-                    <img src="/images/logo-icon.svg" alt="brand-icon">
+                    <img src="./images/logo-icon.svg" alt="brand-icon">
                 </a>
-                <!-- Navigation -->
+                <!-- Header Navigation -->
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="list__item">
                             <a href="#home" class="list__link">Home</a>
                         </li>
                         <li class="list__item">
-                            <a href="#" class="list__link">About</a>
+                            <a href="#about" class="list__link">About</a>
                         </li>
                         <li class="list__item">
-                            <a href="#" class="list__link">Services</a>
+                            <a href="#services" class="list__link">Services</a>
                         </li>
                         <li class="list__item">
-                            <a href="#" class="list__link">Blog</a>
+                            <a href="#blog" class="list__link">Blog</a>
                         </li>
                         <li class="list__item">
-                            <a href="#" class="list__link">Contact</a>
+                            <a href="#contact" class="list__link">Contact</a>
                         </li>
                     </ul>
                 </nav>
-                <!-- Header Button Wrapper -->
-                <div class="button__wrapper">
-                    <!-- Sign in btn -->
+                <!-- Header Buttons -->
+                <div class="header__buttons">
+                    <!-- Sign in Button -->
                     <button class="header__btn">Sign in</button>
+                    <!-- Burger Menu -->
                     <div class="burger-menu">
                         <span></span>
                         <span></span>
@@ -57,67 +58,178 @@
 
     <!-- Main -->
     <main>
-        <!-- Home Page -->
+        <!-- Main Hero -->
         <section id="home">
             <div class="container">
-                <div class="hero__content_wrapper">
-                    <!-- Content Inner -->
+                <div class="hero__inner">
+                    <!-- Hero Top Content -->
                     <div class="hero__wrapper">
-                        <!-- Text inner -->
-                        <div class="hero__text_inner">
-                            <!-- Subtitle -->
-                            <span class="hero__subtite">Next genaretion platform</span>
-                            <!-- Title -->
+                        <!-- Hero Text Content -->
+                        <div class="hero__text__inner">
+                            <!-- Hero Subtitle -->
+                            <span class="hero__subtitle">Next genaretion platform</span>
+                            <!-- Hero Title -->
                             <h1 class="hero__title">Artificial intelligence & Syber security</h1>
-                            <!-- Text -->
+                            <!-- Hero Text -->
                             <p class="hero__text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                            <!-- Hero Buttons -->
                             <div class="hero__buttons">
-                                <button class="hero__start-btn">Get Started</button>
-                                <button class="hero__watch-btn">Watch Video</button>
+                                <!-- Start Button -->
+                                <button class="hero__start_btn">Get Started</button>
+                                <!-- Watch Button -->
+                                <button class="hero__watch_btn">Watch Video</button>
                             </div>
                         </div>
                         <!-- Hero Banner -->
                         <div class="hero__banner">
-                            <img src="/images/hero-banner.png" alt="banner">
+                            <img src="./images/hero-banner.png" alt="hero-banner">
                         </div>
                     </div>
-                    <!-- /End Content Inner -->
-
-                    <!-- Hero Brands -->
-                    <div class="hero__brands">
-                        <!-- Icon 1 -->
-                        <div class="brands__logo">
-                            <a href="#">
-                                <img src="./images/logo-1.svg" alt="brand-icon">
+                    <!-- Hero Bottom Content-->
+                    <div class="hero__brand__inner">
+                        <!-- Logo 1 -->
+                        <div class="hero__brand_wrapper">
+                            <a href="#" class="brand__icon">
+                                <img src="./images/logo-1.svg" alt="">
                             </a>
                         </div>
-
-                        <!-- Icon 2 -->
-                        <div class="brands__logo">
-                            <a href="#">
-                                <img src="./images/logo-2.svg" alt="brand-icon">
+                        <div class="hero__brand_wrapper">
+                            <a href="#" class="brand__icon">
+                                <img src="./images/logo-2.svg" alt="">
                             </a>
                         </div>
-
-                        <!-- Icon 3 -->
-                        <div class="brands__logo">
-                            <a href="#">
-                                <img src="./images/logo-3.svg" alt="brand-icon">
+                        <div class="hero__brand_wrapper">
+                            <a href="#" class="brand__icon">
+                                <img src="./images/logo-3.svg" alt="">
                             </a>
                         </div>
-
-                        <!-- Icon 4 -->
-                        <div class="brands__logo">
-                            <a href="#">
-                                <img src="./images/logo-4.svg" alt="brand-icon">
+                        <div class="hero__brand_wrapper">
+                            <a href="#" class="brand__icon">
+                                <img src="./images/logo-4.svg" alt="">
                             </a>
                         </div>
                     </div>
-                    <!-- /End Hero Brands -->   
                 </div>
             </div>
         </section>
-        <!-- /End Home Page -->
+        <!-- /End Main Hero -->
+
+        <!-- Main  About -->
+        <section id="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <!-- About Banner -->
+                    <div class="about__banner">
+                        <img src="./images/about-banner.png" alt="about-banner">
+                    </div>
+                    <!-- About Text -->
+                    <div class="about__text__inner">
+                        <!-- About Title -->
+                        <h3 class="about__title">Apply AI, Deep Learning and Data Sciece to solve</h3>
+                        <!-- About Text -->
+                        <p class="about__text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <!-- About Button -->
+                        <button class="about__btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /End Main About -->
+
+        <!-- Main Services -->
+        <section id="services">
+            <div class="container">
+                <div class="slider__container">
+                    <!-- Slider Cards -->
+                    <div class="services__wrapper">
+                        <!-- Card 1 -->
+                        <div class="services__card">
+                            <!-- Card Image -->
+                            <div class="card__image">
+                                <img src="/images/card-icon-1.svg" alt="">
+                            </div>
+                            <!-- Card Text -->
+                            <div class="card__text">
+                                <!-- Card Title -->
+                                <h3 class="card__title">Naxly as the Winners in Global Agency Awards</h3>
+                                <p class="card__text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                            </div>
+                        </div>
+    
+                        <!-- Card 2 -->
+                        <div class="services__card">
+                            <!-- Card Image -->
+                            <div class="card__image">
+                                <img src="/images/card-icon-2.svg" alt="">
+                            </div>
+                            <!-- Card Text -->
+                            <div class="card__text">
+                                <!-- Card Title -->
+                                <h3 class="card__title">Expert Prespective Agency Awards</h3>
+                                <p class="card__text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                            </div>
+                        </div>
+    
+                        <!-- Card 3 -->
+                        <div class="services__card">
+                            <!-- Card Image -->
+                            <div class="card__image">
+                                <img src="/images/card-icon-3.svg" alt="">
+                            </div>
+                            <!-- Card Text -->
+                            <div class="card__text">
+                                <!-- Card Title -->
+                                <h3 class="card__title">Business Prespective Global Agency Awards</h3>
+                                <p class="card__text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                            </div>
+                        </div>
+    
+                        <!-- Card 4 -->
+                        <div class="services__card">
+                            <!-- Card Image -->
+                            <div class="card__image">
+                                <img src="/images/card-icon-4.svg" alt="">
+                            </div>
+                            <!-- Card Text -->
+                            <div class="card__text">
+                                <!-- Card Title -->
+                                <h3 class="card__title">Value for Results in Global Agency Awards</h3>
+                                <p class="card__text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                            </div>
+                        </div>
+    
+                        <!-- Card 5 -->
+                        <div class="services__card">
+                            <!-- Card Image -->
+                            <div class="card__image">
+                                <img src="/images/card-icon-5.svg" alt="">
+                            </div>
+                            <!-- Card Text -->
+                            <div class="card__text">
+                                <!-- Card Title -->
+                                <h3 class="card__title">Global Experience in Agency Awards</h3>
+                                <p class="card__text">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider toggle -->
+                    <div class="slider__toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /End Main Services -->
+
+        <!-- Main Blog -->
+        <section id="blog">
+            <div class="container">
+                <div class="blog__wrapper"></div>
+            </div>
+        </section>
+        <!-- /End Main Blog -->
     </main>
     <!-- /End Main -->
 
@@ -125,8 +237,9 @@
     <!-- /End Footer -->
     <!-- Js -->
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
+
 
 
 
