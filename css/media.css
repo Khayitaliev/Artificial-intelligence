@@ -1,0 +1,96 @@
+@media (max-width:920px) {
+        .list__link,
+        .hero__subtitle,
+        .hero__text{
+                font-size: 14px;
+        }
+        .nav__list{
+                gap: 30px;
+        }
+        .header__btn,
+        .watch__btn,
+        .start__btn{
+                padding: 13px 25px;
+                font-size: 14px;
+        }
+        .header__buttons{
+                gap: 15px;
+        }
+        .hero__partners{
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 35px;
+                margin: 20px 0;
+        }
+        .hero__title{
+                font-size: 2.5rem;
+        }
+        .hero__wrapper{
+                gap: 30px;
+        }
+        .hero__text{
+                margin: 20px 0;
+        }
+}
+
+@media (max-width:780px) {
+        .brand__title{
+                display: none;
+        }
+}
+
+
+@media (max-width:700px) {
+        .hero__wrapper{
+                flex-wrap: wrap;
+                text-align: center;
+        }
+        .hero__buttons{
+                justify-content: center;
+        }
+        .hero__text_content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+}
+@media (max-width:560px) {
+        .nav__list{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                left: 0;
+                transform-origin: right;
+                transform: scaleX(0);
+                -webkit-transform: scaleX(0);
+                -moz-transform: scaleX(0);
+                -ms-transform: scaleX(0);
+                -o-transform: scaleX(0);
+}
+        .burger-menu{
+                display: block;
+        }
+        .active__navbar{
+                transform: scale(1);
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -o-transform: scale(1);
+}
+        
+}
+
+@media (max-width:480px) {
+        .hero__buttons{
+                flex-direction: column;
+                width: 100%;
+                gap: 10px;
+        }
+        .hero__text{
+                margin: 10px 0;
+        }
+        .hero__title{
+                font-size: 2rem;
+        }
+}
