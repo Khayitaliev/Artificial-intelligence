@@ -343,6 +343,7 @@ header{
    text-align: center;
    scroll-snap-align: center;
    scroll-snap-stop: always;
+   padding: 30px;
 }
 
 .card__title{
@@ -399,8 +400,4 @@ header{
 
 .block__banner img{
     width: 642px;
-}
-
-::-webkit-scrollbar-thumb{
-    background: #3A68B8;
 }
