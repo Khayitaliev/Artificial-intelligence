@@ -316,6 +316,9 @@ header{
     width: 725px;
 }
 
+.services__container{
+    padding: 2%;
+}
 
 .cards__wrapper{
     display: flex;
@@ -534,8 +537,4 @@ footer{
     color: var(--cl-light-blue);
     font-size: 14px;
     font-family: 'Open Sans',sans-serif;
-}
-
-{
-    color: var(--cl-light-blue);
 }
